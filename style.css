@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shopping-cart {
+    width: 900px;
+    height: 520px;
+    margin: 80px auto;
+    background: #2abd10;
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color: hsl(100, 75%, 3%);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+    border: 1px solid black;
+
+}
+
+.buttons-delete {
+    width: 20px;
+    position: relative;
+    padding-top: 30px;
+    margin-right: 46px;
+    cursor: pointer;
+    fill: red;
+}
+.buttons-delete2 {
+    width: 20px;
+    position: relative;
+    padding-top: 30px;
+    margin-right: 46px;
+    cursor: pointer;
+    fill: red;
+}
+.buttons-delete3 {
+    width: 20px;
+    position: relative;
+    padding-top: 30px;
+    margin-right: 46px;
+    cursor: pointer;
+    fill: red;
+}
+
+
+
+.like-buttons1 {
+
+    Cursor: pointer;
+    left: 0px;
+    width: 30px;
+    height: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    left: -10px;
+    fill:grey;
+    
+
+}
+
+.like-buttons2 {
+
+    Cursor: pointer;
+    left: 0px;
+    width: 30px;
+    height: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    left: -10px;
+    fill: grey;
+    
+
+}
+
+.like-buttons3 {
+
+    Cursor: pointer;
+    left: 0px;
+    width: 30px;
+    height: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    left: -10px;
+    fill: grey;
+    
+
+}
+
+
+.image {
+    margin-right: 80px;
+
+}
+.image img{
+    width: 4rem;
+    height: 5rem;
+}
+
+.description {
+    padding-top: 10px;
+    margin-right: 60px;
+    width: 115px;
+}
+
+.description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+}
+
+.quantity {
+    padding-top: 20px;
+    margin-right: 7px;
+}
+
+
+.quantity input {
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 5rem;
+    height: 2.5rem;
+    font-size: 16px;
+    color: #36d155;
+    font-weight: 300;
+}
+
+.quantity button {
+    width: 30px;
+    height: 30px;
+    background-color: #316a9b;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+
+
+.total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #11569b;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+.total-price2{
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #11569b;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+.total-price3 {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #11569b;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+.subtotal {
+    margin-left: 3rem;
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #11569b;
+    font-weight: 300;
+}
+
+.subtotal2 {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #11569b;
+    font-weight: 300;
+    margin-left: 3rem;
+}
+.subtotal3 {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #11569b;
+    font-weight: 300;
+    margin-left: 3rem;
+}
+.total{
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #11569b;
+    font-weight: 300;
+}
+strong{
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color:black;
+    font-weight: 300; 
+    position: absolute;
+    right: 5rem;
+}
+.nom-articles span{
+padding-left: 5.5rem;
+}
+
+
+.like-buttons1 button {
+    width: 30px;
+    height: 30px;
+    background-color:  #2abd10;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.like-buttons2 button {
+    width: 30px;
+    height: 30px;
+    background-color:  #2abd10;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.like-buttons3 button {
+    width: 30px;
+    height: 30px;
+    background-color: #2abd10;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
