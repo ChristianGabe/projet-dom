@@ -6,14 +6,13 @@
 
 .shopping-cart {
     width: 900px;
-    height: 520px;
-    margin: 80px auto;
-    background: #2abd10;
+    background: rgb(160, 190, 214);
     border-radius: 6px;
-
+    position: relative;
     display: flex;
     flex-direction: column;
-    position: relative;
+    margin: 80px auto;
+
 }
 
 .title {
@@ -220,14 +219,15 @@
     font-weight: 300;
 }
 strong{
-    width: 83px;
-    padding-top: 27px;
+    
     text-align: center;
     font-size: 16px;
     color:black;
     font-weight: 300; 
+    background-color:rgb(160, 190, 214);
+    padding: 1rem;
     position: absolute;
-    right: 5rem;
+    right: 0rem;
 }
 .nom-articles span{
 padding-left: 5.5rem;
@@ -237,7 +237,7 @@ padding-left: 5.5rem;
 .like-buttons1 button {
     width: 30px;
     height: 30px;
-    background-color:  #2abd10;
+    background-color:  rgb(160, 190, 214);;
     border-radius: 100px;
     border: none;
     cursor: pointer;
@@ -247,7 +247,7 @@ padding-left: 5.5rem;
 .like-buttons2 button {
     width: 30px;
     height: 30px;
-    background-color:  #2abd10;
+    background-color: rgb(160, 190, 214);;
     border-radius: 100px;
     border: none;
     cursor: pointer;
@@ -257,7 +257,7 @@ padding-left: 5.5rem;
 .like-buttons3 button {
     width: 30px;
     height: 30px;
-    background-color: #2abd10;
+    background-color:rgb(160, 190, 214);;
     border-radius: 100px;
     border: none;
     cursor: pointer;
